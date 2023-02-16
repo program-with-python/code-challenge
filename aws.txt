@@ -1,0 +1,20 @@
+To deploy this project to the cloud using aws, we can use following services 
+and tools of aws.
+
+First we can use AWS Elastic Beanstalk to deploy Django application that powers the API.
+This is a platform-as-a-service (PaaS) offering that makes it easy to deploy 
+ and manage applications in the cloud.
+
+ Next we can use Amazon RDS for database setup. As locally database use is postgres. 
+ This service is easy to setup, operate and scale a relational database.
+
+ AWS Lambda can be used to call the management commands and even we can schedule 
+ using AWS CloudWatch Events.
+
+ we can use AWS S3 to store our text files and the output text file can also be 
+ stored in Amazon S3 Bucket.
+
+ By using these AWS services and tools, we can easily deploy and manage our API,
+  database, and data ingestion code in the cloud, 
+ while also ensuring scalability, reliability, and security.
+
